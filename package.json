@@ -4,11 +4,12 @@
   "description": "Example for getting NFT tokenURI",
   "main": "index.js",
   "dependencies": {
-    "ethers": "^6.10.0",
-    "dotenv": "^16.4.1"
+    "dotenv": "^16.4.1",
+    "ethers": "^5.7.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "scripts": {

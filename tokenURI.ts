@@ -7,7 +7,7 @@ const abi = [
     "function tokenURI(uint256 _tokenId) external view returns (string)",
 ];
 
-const provider = new ethers.JsonRpcProvider(RPC);
+const provider = new ethers.providers.JsonRpcProvider(RPC);
 
 // the contract interface         
 const contractAddress = "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d"; //BAYC contract address
